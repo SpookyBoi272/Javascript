@@ -98,10 +98,10 @@ section img
     
 .wordForm
 {
+    position: relative;
     width: 100%;
     display: flex;
     justify-content: space-between;
-    z-index: 1000;
 }
 
 .wordForm input
@@ -112,17 +112,26 @@ section img
     border-bottom: 3px solid #4f5398;
     outline: none;
     font-size: 16px;
-    z-index: 1000;
 }
 
 .wordForm button
 {
-    padding: 15px 0px;
+    padding: 15px 0;
     width: 25%;
     background-color: #4f5398;
     border: none;
     outline: none;
     color: #fff;
-    border-radius: 5px;
-    z-index: 1000;
+    border-radius: 10px;
+}
+
+.wordForm button:hover
+{
+    padding: 15px 0;
+    width: 25%;
+    background-color: #2b1055;
+    border: none;
+    outline: none;
+    color: #fff;
+    border-radius: 10px;
 }
