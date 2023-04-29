@@ -101,7 +101,7 @@ section img
     width: 100%;
     display: flex;
     justify-content: space-between;
-    z-index: 2000;
+    z-index: 1000;
 }
 
 .wordForm input
@@ -112,6 +112,7 @@ section img
     border-bottom: 3px solid #4f5398;
     outline: none;
     font-size: 16px;
+    z-index: 1000;
 }
 
 .wordForm button
@@ -123,4 +124,5 @@ section img
     outline: none;
     color: #fff;
     border-radius: 5px;
+    z-index: 1000;
 }
