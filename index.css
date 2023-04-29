@@ -1,10 +1,10 @@
-@import url("https://fonts.googleapis.com/css?family=Comic Neue");
+@import url("https://fonts.googleapis.com/css?family=Righteous");
 *
 {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Comic Neue',sans-serif;
+    font-family: 'Righteous',sans-serif;
 }
 
 body
