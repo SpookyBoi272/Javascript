@@ -1,4 +1,4 @@
-const wordForm = document.getElementById('wordForm');
+const wordForm = document.getElementById("wordForm");
 wordForm.addEventListener('submit', function(event) {
   event.preventDefault(); // prevent form from submitting and refreshing the page
   
