@@ -1,6 +1,5 @@
 window.addEventListener("DOMContentLoaded", (event) => {
-const wordForm = document.getElementById("wordForm");
-wordForm.addEventListener('submit', function(event) {
+document.getElementById("wordForm").onclick = () =>{
   event.preventDefault(); // prevent form from submitting and refreshing the page
   
   const wordInput = document.getElementById('wordInput').value;
@@ -16,5 +15,5 @@ wordForm.addEventListener('submit', function(event) {
       // handle any errors here
       console.error(error);
     });
-});
+};
 });
