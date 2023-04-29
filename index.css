@@ -96,3 +96,9 @@ section img
     z-index: 1000;
 }
     
+.wordForm
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
