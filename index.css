@@ -91,5 +91,6 @@ section img
     padding: 80px 50px;
     border-radius: 10px;
     box-shadow: 0 20px 40px rgba(38,33,61,0.2);
+    z-index: 1000;
 }
     
