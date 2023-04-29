@@ -112,3 +112,8 @@ section img
     outline: none;
     font-size: 16px;
 }
+
+.wordForm button
+{
+    padding: 5px 0px;
+}
