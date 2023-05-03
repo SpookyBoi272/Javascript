@@ -1,5 +1,5 @@
 window.addEventListener("DOMContentLoaded", (event) => {
-document.getElementById("wordForm").onclick = () =>{
+document.getElementById("search-btn").onclick = () =>{
   event.preventDefault(); // prevent form from submitting and refreshing the page
   
   const wordInput = document.getElementById('wordInput').value;
