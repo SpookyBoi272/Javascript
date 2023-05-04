@@ -8,7 +8,7 @@ document.getElementById("search-btn").onclick = () =>{
   fetch(apiUrl)
     .then(response => response.json())
     .then(data => {
-      // handle the API response data here
+      // handling the api response data
       word = data[0].word
       pos = data[0].meanings[0].partOfSpeech
       phn = data[0].phonetic
