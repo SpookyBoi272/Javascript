@@ -9,6 +9,7 @@ document.getElementById("search-btn").onclick = () =>{
     document.getElementById("word").style.color =  "red"
   }
   else{
+    document.getElementById("word").innerHTML=`<image src="../Sources/R.gif">`
     const apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en/${wordInput}`;
     
     fetch(apiUrl)
