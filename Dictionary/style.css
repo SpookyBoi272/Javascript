@@ -84,6 +84,7 @@ section img
 {
     background-color: #fff;
     width: 90vmin;
+    height: 50vmin;
     position: absolute;
     transform: translate(-50%, -50%);
     top: 50%;
@@ -94,6 +95,7 @@ section img
     justify-content: center;
     align-items: center;
     z-index: 1000;
+    overflow: auto;
 }
     
 .wordForm
